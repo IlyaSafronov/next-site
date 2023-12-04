@@ -10,7 +10,7 @@ body {
 }
 
 body {
- background: #ccc; 
+ 
 }
 
 :root {
@@ -116,4 +116,50 @@ nav svg {
   height: 100vh;
   object-fit: cover;
   z-index: -1;
+}
+
+.classes {
+  color: var(--secondary-color);
+  text-align: center;
+  font-family: 'argonite', sans-serif;
+}
+
+.videos video  {
+  width: 100%;
+  border-radius: 1rem;
+  margin-top: 1rem;
+}
+
+.meditation,
+.yoga,
+.pilates {
+  position: relative;
+}
+
+.videos h3 {
+  position: absolute;
+  color: var(--main-color);
+  text-shadow: 0px 2px 12px rgba(0, 0, 0, 0.408);
+  bottom: 10%;
+  left: 50%;
+  transform: translate(-50%, -10%);
+  font-size: 2rem;
+}
+
+.about {
+  color: var(--secondary-color);
+}
+
+.about h2 {
+  font-family: 'argonite', sans-serif;
+  text-align: center;
+}
+
+.about p {
+  line-height: 150%;
+}
+
+.about img {
+  width: 100%;
+  margin-top: 2rem;
 }
